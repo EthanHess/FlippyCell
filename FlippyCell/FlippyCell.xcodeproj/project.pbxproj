@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		277830281D20438B00842C1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 277830271D20438B00842C1B /* main.m */; };
+		2778302B1D20438B00842C1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2778302A1D20438B00842C1B /* AppDelegate.m */; };
+		277830331D20438B00842C1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 277830321D20438B00842C1B /* Assets.xcassets */; };
+		277830361D20438B00842C1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277830341D20438B00842C1B /* LaunchScreen.storyboard */; };
+		2778303F1D204B8A00842C1B /* UIView+extend.m in Sources */ = {isa = PBXBuildFile; fileRef = 2778303E1D204B8A00842C1B /* UIView+extend.m */; };
+		277830451D204FD900842C1B /* FlippyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 277830431D204FD900842C1B /* FlippyCell.m */; };
+		2778304A1D20530300842C1B /* FlipTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 277830481D20530300842C1B /* FlipTableViewController.m */; };
+		2778304B1D20530300842C1B /* FlipTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 277830491D20530300842C1B /* FlipTableViewController.xib */; };
+		27E3A95D1D25C4A500143270 /* FlippyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27E3A95C1D25C4A500143270 /* FlippyCell.xib */; };
+		27E3A9601D25E17700143270 /* UIColor+Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E3A95F1D25E17700143270 /* UIColor+Colors.m */; };
+		27E3A9631D25E86800143270 /* MOStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E3A9621D25E86800143270 /* MOStack.m */; };
+		27E3A9661D25EBDA00143270 /* ItemController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E3A9651D25EBDA00143270 /* ItemController.m */; };
+		27E3A9691D25EE0E00143270 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 27E3A9671D25EE0E00143270 /* Model.xcdatamodeld */; };
+		27E3A96E1D25EE6400143270 /* Item+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E3A96B1D25EE6400143270 /* Item+CoreDataProperties.m */; };
+		27E3A96F1D25EE6400143270 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 27E3A96D1D25EE6400143270 /* Item.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		277830231D20438B00842C1B /* FlippyCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlippyCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		277830271D20438B00842C1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		277830291D20438B00842C1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2778302A1D20438B00842C1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		277830321D20438B00842C1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		277830351D20438B00842C1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		277830371D20438B00842C1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2778303D1D204B8A00842C1B /* UIView+extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+extend.h"; sourceTree = "<group>"; };
+		2778303E1D204B8A00842C1B /* UIView+extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+extend.m"; sourceTree = "<group>"; };
+		277830421D204FD900842C1B /* FlippyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlippyCell.h; sourceTree = "<group>"; };
+		277830431D204FD900842C1B /* FlippyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlippyCell.m; sourceTree = "<group>"; };
+		277830471D20530300842C1B /* FlipTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipTableViewController.h; sourceTree = "<group>"; };
+		277830481D20530300842C1B /* FlipTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipTableViewController.m; sourceTree = "<group>"; };
+		277830491D20530300842C1B /* FlipTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlipTableViewController.xib; sourceTree = "<group>"; };
+		27E3A95C1D25C4A500143270 /* FlippyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FlippyCell.xib; sourceTree = "<group>"; };
+		27E3A95E1D25E17700143270 /* UIColor+Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Colors.h"; sourceTree = "<group>"; };
+		27E3A95F1D25E17700143270 /* UIColor+Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Colors.m"; sourceTree = "<group>"; };
+		27E3A9611D25E86800143270 /* MOStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOStack.h; sourceTree = "<group>"; };
+		27E3A9621D25E86800143270 /* MOStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOStack.m; sourceTree = "<group>"; };
+		27E3A9641D25EBDA00143270 /* ItemController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemController.h; sourceTree = "<group>"; };
+		27E3A9651D25EBDA00143270 /* ItemController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemController.m; sourceTree = "<group>"; };
+		27E3A9681D25EE0E00143270 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		27E3A96A1D25EE6400143270 /* Item+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Item+CoreDataProperties.h"; path = "../Item+CoreDataProperties.h"; sourceTree = "<group>"; };
+		27E3A96B1D25EE6400143270 /* Item+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Item+CoreDataProperties.m"; path = "../Item+CoreDataProperties.m"; sourceTree = "<group>"; };
+		27E3A96C1D25EE6400143270 /* Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Item.h; path = ../Item.h; sourceTree = "<group>"; };
+		27E3A96D1D25EE6400143270 /* Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Item.m; path = ../Item.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		277830201D20438B00842C1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2778301A1D20438B00842C1B = {
+			isa = PBXGroup;
+			children = (
+				277830251D20438B00842C1B /* FlippyCell */,
+				277830241D20438B00842C1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		277830241D20438B00842C1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				277830231D20438B00842C1B /* FlippyCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		277830251D20438B00842C1B /* FlippyCell */ = {
+			isa = PBXGroup;
+			children = (
+				277830291D20438B00842C1B /* AppDelegate.h */,
+				2778302A1D20438B00842C1B /* AppDelegate.m */,
+				277830471D20530300842C1B /* FlipTableViewController.h */,
+				277830481D20530300842C1B /* FlipTableViewController.m */,
+				277830491D20530300842C1B /* FlipTableViewController.xib */,
+				277830421D204FD900842C1B /* FlippyCell.h */,
+				277830431D204FD900842C1B /* FlippyCell.m */,
+				27E3A95C1D25C4A500143270 /* FlippyCell.xib */,
+				27E3A9611D25E86800143270 /* MOStack.h */,
+				27E3A9621D25E86800143270 /* MOStack.m */,
+				27E3A9641D25EBDA00143270 /* ItemController.h */,
+				27E3A9651D25EBDA00143270 /* ItemController.m */,
+				2778303D1D204B8A00842C1B /* UIView+extend.h */,
+				2778303E1D204B8A00842C1B /* UIView+extend.m */,
+				27E3A95E1D25E17700143270 /* UIColor+Colors.h */,
+				27E3A95F1D25E17700143270 /* UIColor+Colors.m */,
+				27E3A96A1D25EE6400143270 /* Item+CoreDataProperties.h */,
+				27E3A96B1D25EE6400143270 /* Item+CoreDataProperties.m */,
+				27E3A96C1D25EE6400143270 /* Item.h */,
+				27E3A96D1D25EE6400143270 /* Item.m */,
+				27E3A9671D25EE0E00143270 /* Model.xcdatamodeld */,
+				277830321D20438B00842C1B /* Assets.xcassets */,
+				277830341D20438B00842C1B /* LaunchScreen.storyboard */,
+				277830371D20438B00842C1B /* Info.plist */,
+				277830261D20438B00842C1B /* Supporting Files */,
+			);
+			path = FlippyCell;
+			sourceTree = "<group>";
+		};
+		277830261D20438B00842C1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				277830271D20438B00842C1B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		277830221D20438B00842C1B /* FlippyCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2778303A1D20438B00842C1B /* Build configuration list for PBXNativeTarget "FlippyCell" */;
+			buildPhases = (
+				2778301F1D20438B00842C1B /* Sources */,
+				277830201D20438B00842C1B /* Frameworks */,
+				277830211D20438B00842C1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlippyCell;
+			productName = FlippyCell;
+			productReference = 277830231D20438B00842C1B /* FlippyCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2778301B1D20438B00842C1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ethan Hess";
+				TargetAttributes = {
+					277830221D20438B00842C1B = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 2778301E1D20438B00842C1B /* Build configuration list for PBXProject "FlippyCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2778301A1D20438B00842C1B;
+			productRefGroup = 277830241D20438B00842C1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				277830221D20438B00842C1B /* FlippyCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		277830211D20438B00842C1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277830361D20438B00842C1B /* LaunchScreen.storyboard in Resources */,
+				27E3A95D1D25C4A500143270 /* FlippyCell.xib in Resources */,
+				277830331D20438B00842C1B /* Assets.xcassets in Resources */,
+				2778304B1D20530300842C1B /* FlipTableViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2778301F1D20438B00842C1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2778302B1D20438B00842C1B /* AppDelegate.m in Sources */,
+				27E3A9631D25E86800143270 /* MOStack.m in Sources */,
+				27E3A9601D25E17700143270 /* UIColor+Colors.m in Sources */,
+				277830451D204FD900842C1B /* FlippyCell.m in Sources */,
+				2778303F1D204B8A00842C1B /* UIView+extend.m in Sources */,
+				27E3A9691D25EE0E00143270 /* Model.xcdatamodeld in Sources */,
+				2778304A1D20530300842C1B /* FlipTableViewController.m in Sources */,
+				27E3A96F1D25EE6400143270 /* Item.m in Sources */,
+				27E3A9661D25EBDA00143270 /* ItemController.m in Sources */,
+				27E3A96E1D25EE6400143270 /* Item+CoreDataProperties.m in Sources */,
+				277830281D20438B00842C1B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		277830341D20438B00842C1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				277830351D20438B00842C1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		277830381D20438B00842C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		277830391D20438B00842C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2778303B1D20438B00842C1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlippyCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devmountain.FlippyCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2778303C1D20438B00842C1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FlippyCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devmountain.FlippyCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2778301E1D20438B00842C1B /* Build configuration list for PBXProject "FlippyCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277830381D20438B00842C1B /* Debug */,
+				277830391D20438B00842C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2778303A1D20438B00842C1B /* Build configuration list for PBXNativeTarget "FlippyCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2778303B1D20438B00842C1B /* Debug */,
+				2778303C1D20438B00842C1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		27E3A9671D25EE0E00143270 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				27E3A9681D25EE0E00143270 /* Model.xcdatamodel */,
+			);
+			currentVersion = 27E3A9681D25EE0E00143270 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2778301B1D20438B00842C1B /* Project object */;
+}
